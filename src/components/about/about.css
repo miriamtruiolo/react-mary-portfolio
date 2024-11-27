@@ -66,9 +66,9 @@
 }
 
  /* ========MEDIA QUERIES (MEDIUM DEVICES)====== */
-@media screen and (max-width: 1024px) { /* Aggiunto spazio corretto */
+@media screen and (max-width: 1024px) { 
     .about_container {
-        grid-template-columns: 1fr; /* Colonna singola */
+        grid-template-columns: 1fr; 
         gap: 0;
     }
     .about_me {
@@ -82,14 +82,14 @@
 }
 
 /* ========MEDIA QUERIES (SMALL DEVICES)====== */
-@media screen and (max-width: 600px) { /* Aggiunto spazio corretto */
+@media screen and (max-width: 600px) {
     .about_me {
         width: 65%;
         margin: 0 auto 3rem;
     }
 
     .about_cards {
-        grid-template-columns: 1fr; /* Colonna singola */
+        grid-template-columns: 1fr; 
         gap: 1rem;
     }
 
@@ -99,5 +99,5 @@
 
     .about_content p {
         margin: 1.5rem 0;
-    }
+    }   
 }
