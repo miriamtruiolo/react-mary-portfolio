@@ -61,7 +61,7 @@ header {
   }
 
   /* ========MEDIA QUEDIES (MEDIUM DEVIDCES)====== */
-@media screen and(max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     header {
         height: 100vh;
     }
@@ -69,7 +69,7 @@ header {
 
 
     /* ========MEDIA QUEDIES (SMALL DEVIDCES)====== */
-@media screen and(max-width: 600px) {
+@media screen and (max-width: 600px) {
     .scroll_down {
         display: none;
     }
