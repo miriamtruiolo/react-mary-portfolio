@@ -66,5 +66,4 @@ const testimonials = () => {
     </section>
   );
 };
-
 export default testimonials;
