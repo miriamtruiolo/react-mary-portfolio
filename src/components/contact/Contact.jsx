@@ -27,7 +27,7 @@ const Contact = () => {
             <MdOutlineEmail className="contact_option-icon"/>
             <h4>Email</h4>
             <h5>miriamtruiolo@gmail.com</h5>
-            <a href="mailto:miriamtruiolo@gmail.com" target="_blank">
+            <a href="mailto:miriamtruiolo@gmail.com" target="_blank" rel="noopener noreferrer">
               Send a message
             </a>
           </article>
@@ -37,7 +37,7 @@ const Contact = () => {
             <h5>Text Me</h5>
             {/*Lui nel video il link lo ha fatto così: href:'https://m.me/e qui ci ha messo l'ultima parte del link di fb. 
             Visto che io lo sto facendo con IG credo sia giusto ma va testato.' */}
-            <a href="https://www.instagram.com/miriamtruiolo/" target="_blank">
+            <a href="https://www.instagram.com/miriamtruiolo/" target="_blank" rel="noopener noreferrer">
               Send a DM message
             </a>
           </article>
@@ -45,7 +45,7 @@ const Contact = () => {
             <FaWhatsapp className="contact_option-icon"/>
             <h4>WhatsApp</h4>
             <h5>+393517756993</h5>
-            <a href="https://api.whatsapp.com/send?phone=393517756993" target="_blank" >
+            <a href="https://api.whatsapp.com/send?phone=393517756993" target="_blank" rel="noopener noreferrer">
               Send a message
             </a>
           </article>
