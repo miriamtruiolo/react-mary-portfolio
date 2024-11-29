@@ -3,8 +3,18 @@ import "./contact.css";
 import { MdOutlineEmail } from "react-icons/md";
 import { RiMessage3Line } from "react-icons/ri";
 import { FaWhatsapp } from "react-icons/fa";
+import ReactForm, { useRef } from 'react';
+import emailjs from 'emailjs-com'
 
 const Contact = () => {
+  const form = useRef()
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_m14b9nb', 'template_7weeg6q', form.current,'-6lURbmEsNZ5CYTbF')
+    e.target.reset()
+  };
   return (
     <section id="contact">
       <h5>Get in Touch</h5>
@@ -41,29 +51,12 @@ const Contact = () => {
           </article>
         </div>
         {/* CONTACT FORM SECTION */}
-        <form action="">
-          <input
-            type="text"
-            name="name"
-            placeholder="Your Full Name"
-            required
-          />
+        <form ref={form} onSubmit={sendEmail}>
+          <input type="text" name="name" placeholder="Your Full Name" required />
           <input type="email" name="email" placeholder="Your Email" required />
-          <input
-            type="number"
-            name="number"
-            placeholder="Your Phone Number"
-            required
-          />
-          <textarea
-            type="message"
-            row="7"
-            placeholder="Your Message"
-            required
-          ></textarea>
-          <button type="submit" className="btn btn-primary">
-            Send Message
-          </button>
+          <input type="number" name="number" placeholder="Your Phone Number" required/>
+          <textarea name="message" rows="7" placeholder="Your Message" required ></textarea>
+          <button type="submit" className="btn btn-primary">Send Message</button>
         </form>
       </div>
     </section>
