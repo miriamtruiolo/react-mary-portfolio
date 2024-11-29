@@ -1,5 +1,6 @@
 {
   "name": "react-mary-portfolio",
+  "homepage": "https://mary-personal-trainer.netlify.app/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
