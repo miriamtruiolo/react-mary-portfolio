@@ -12,7 +12,7 @@ const Footer = () => {
         <ul className='permalinks'>
             <li> <a href='#'>Home</a></li>
             <li> <a href='#about'>Chi sono</a></li>
-            <li> <a href='#services'>Serizi</a></li>
+            <li> <a href='#services'>Servizi</a></li>
             <li> <a href='#rates'>Tariffe</a></li>
             <li> <a href='#testimonials'>Testimonianze</a></li>
             <li> <a href='#contact'>Contatti</a></li>
