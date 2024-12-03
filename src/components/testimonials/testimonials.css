@@ -2,6 +2,12 @@
     width: 40%;  
     padding-bottom: 4rem; 
 }
+.testimonials_index h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--color-primary);
+    font-weight: 600;
+    font-size: 35px;
+}
 
 .client_avatar {
     width: 4rem;
