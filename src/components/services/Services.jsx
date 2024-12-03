@@ -2,23 +2,23 @@ import React from 'react'
 import './services.css'
 import { CgGym } from "react-icons/cg";
 
-const Experience = () => {
+const Services = () => {
   return (
-    <section id='experience' className='experience_container-index'>
+    <section id='services' className='services_container-index'>
       <h2>SERVIZI</h2>
 
-      <div className='container experience_container'>
+      <div className='container services_container'>
 
         {/*Inizio personal in presenza*/}
-        <div className='experience_presencial'>
+        <div className='services_presencial'>
           <h3>CLASSI PRESENZIALI (Valencia)</h3>
-            <article className='experience_details'>
+            <article className='services_details'>
               <h4> TONE: GAP, Total Body, Functional </h4>
               <p>Allenamenti dinamici, sempre nuovi, divertenti e stimolanti (1h). 
                 <br/>Concentrati sulla musica e lascia che il tuo corpo si muova a ritmo, dimenticando la fatica dell’allenamento. (3/7pax)</p>
             </article>
 
-            <article className='experience_details'>
+            <article className='services_details'>
             <h4>BAILE: Aerodance, Cardiodance</h4>
             <p>Lasciati andare, disconnetti dalle pressioni e dallo stress della quotidianità. (1h) 
               <br/>Divertiti, sorridi, conosci persone nuove e mantieni il tuo corpo in forma ballando. (+3pax)</p>
@@ -27,9 +27,9 @@ const Experience = () => {
         </div>
 
         {/*Inizio FitRoutine*/}
-        <div className='expericence_routine'>
+        <div className='services_routine'>
         <h3>FIT ROUTINE (Training online)</h3>
-            <article className='experience_details'>
+            <article className='services_details'>
             <h4>ROUTINE (2 giorni a settimana)</h4>
             <p>Allenamenti total body per casa o palestra, con linee guida per un’alimentazione equilibrata. Ogni 4-6 settimane, ricevi una nuova routine. </p>
             <h5>Include:</h5>
@@ -41,9 +41,9 @@ const Experience = () => {
         </div>
 
         {/*Inizio Focus Goal*/}
-        <div className='experience_goal'>
+        <div className='services_goal'>
           <h3>FOCUS GOAL (Training online)</h3>
-            <article className='experience_details'>
+            <article className='services_details'>
             <h4>Personal su misura</h4>
             <p>Programma personalizzato per casa o palestra, costruito sui tuoi obiettivi, affiancato da linee guida per un'alimentazione bilanciata e adatta alle tue esigenze.</p>
             <h5>Include:</h5>
@@ -57,9 +57,9 @@ const Experience = () => {
         </div>
 
         {/*Inizio Focus Gravidanza*/}
-        <div className='experience_gravidanza'>
+        <div className='services_gravidanza'>
           <h3>FOCUS GRAVIDANZA (Training online)</h3>
-            <article className='experience_details'>
+            <article className='services_details'>
             <h4>Personal su obiettivi e disponibilità</h4>
             <p>Allenamenti sicuri e adattati per mantenerti attiva durante la gravidanza, con linee guida nutrizionali personalizzate.</p>
             <h5>Include:</h5>
@@ -78,4 +78,4 @@ const Experience = () => {
   )
 }
 
-export default Experience
+export default Services

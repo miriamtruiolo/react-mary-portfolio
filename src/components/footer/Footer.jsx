@@ -11,21 +11,20 @@ const Footer = () => {
         <a href='#' className='footer_logo'></a>
         <ul className='permalinks'>
             <li> <a href='#'>Home</a></li>
-            <li> <a href='#about'>About</a></li>
-            <li> <a href='#experience'>Experience</a></li>
-            <li> <a href='#services'>Services</a></li>
-            <li> <a href='#portfolio'>Portfolio</a></li>
-            <li> <a href='#testimonials'>Testimonials</a></li>
-            <li> <a href='#contact'>Contact</a></li>
+            <li> <a href='#about'>Chi sono</a></li>
+            <li> <a href='#services'>Serizi</a></li>
+            <li> <a href='#rates'>Tariffe</a></li>
+            <li> <a href='#testimonials'>Testimonianze</a></li>
+            <li> <a href='#contact'>Contatti</a></li>
         </ul>
         <div className="footer_social">
-            <a href='https://instagram.com'><FaInstagram/></a>
-            <a href='https://linkedin.com/miriamtruiolo'><FaLinkedinIn/></a>
-            <a href='https://facebook.com'><FaFacebookF/></a>
+            <a href=''><FaInstagram/></a>
+            <a href=''><FaLinkedinIn/></a>
+            <a href=''><FaFacebookF/></a>
         </div>
 
         <div className='footer_copyright'>
-            <small>$copy; Created by MIRIAM TRUIOLO <FaRegCopyright/> 2024.</small>
+            <small>Created by MIRIAM TRUIOLO <FaRegCopyright/> 2024.</small>
         </div>
     </footer>
   )
