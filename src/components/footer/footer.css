@@ -7,7 +7,7 @@ footer {
 }
 
 footer a {
-    color: var(--color-bg);
+    color: var(--color-dark);
 }
 
 .footer_logo {
@@ -34,7 +34,7 @@ footer a {
 
 .footer_social a {
    background: var(--color-bg);
-   color: var(--color-white);
+   color: var(--color-dark);
    padding: 0.8rem;
    border-radius: 0.7rem;
    display: flex;
@@ -43,13 +43,13 @@ footer a {
 
 .footer_social a:hover{
     background: transparent;
-    color: var(--color-bg);
+    color: var(--color-dark);
     border-color: var(--color-bg);
 }
 
 .footer_copyright {
     margin-bottom: 4rem;
-    color: var(--color-bg);
+    color: var(--color-dark);
 }
  
  /* ========MEDIA QUERIES (SMALL DEVICES)====== */

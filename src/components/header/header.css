@@ -26,15 +26,16 @@ header {
     align-items: center;
     gap: 0.8rem;
     position: absolute;
-    left: 0;
+    left: 3rem;
     bottom: 3rem;
+    color: var(--color-dark);
  }
 
  .header_socials::after {
     content: '';
     width: 1px;
     height: 2rem;
-    background: var(--color-primary);
+    background: #B2AC88 !important;
  }
 
  /*==========ME========== */
@@ -56,8 +57,10 @@ header {
     right: -2.3rem;
     bottom: 5rem;
     transform: rotate(90deg);
-    font-weight: 300;
+    font-weight: 500;
     font-size: 0.9rem;
+    margin-right: 3rem;
+    color: var(--color-dark);
   }
 
   /* ========MEDIA QUEDIES (MEDIUM DEVIDCES)====== */
