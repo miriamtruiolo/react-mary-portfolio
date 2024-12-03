@@ -1,14 +1,34 @@
 header {
-    height: 100vh;
-    padding-top: 7rem;
-    overflow: hidden;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 .header_container {
     text-align: center;
-    height: 100%;
+    height: 95vh;
     position: relative;
 }
+
+.container_logo {
+     height: 4rem;
+     width: 4rem;
+     margin: 0 auto;
+     border-radius: 12rem 12rem 0 0;
+     margin-bottom: 1rem;
+   
+ }
+
+ .text-primary {
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+ }
+
+ .text-secondary {
+    font-size: medium;
+    font-weight: 400;
+ }
 
 /*==========CTA========== */
 
@@ -26,8 +46,8 @@ header {
     align-items: center;
     gap: 0.8rem;
     position: absolute;
-    left: 3rem;
-    bottom: 3rem;
+    left: 1rem;
+    bottom: 7rem;
     color: var(--color-dark);
  }
 
@@ -35,7 +55,7 @@ header {
     content: '';
     width: 1px;
     height: 2rem;
-    background: #B2AC88 !important;
+    background: #B2AC88;
  }
 
  /*==========ME========== */
@@ -43,13 +63,28 @@ header {
     background: linear-gradient(var(--color-primary), transparent);
     width: 22rem;
     height: 30rem;
-    position: absolute;
-    left: calc(50% - 11rem);
-    margin-top: 4rem;
+    margin: 4rem auto 0 auto;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
     padding:  5rem 1.5rem 1.5rem 1.5rem;
  }
+
+ /*==========TEXT-LIGHT========== */
+ .text-light {
+    font-size: small;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+ }
+
+ .linea {
+    border-bottom: 1px solid #B2AC88;
+    width: 50%;
+    margin-top: 2rem;  
+    margin-bottom: 7rem; 
+    margin-left: auto; 
+    margin-right: auto;  
+  }
 
   /*==========SCROLL DOWN========== */
   .scroll_down {
@@ -65,11 +100,19 @@ header {
 
   /* ========MEDIA QUEDIES (MEDIUM DEVIDCES)====== */
 @media screen and (max-width: 1024px) {
-    header {
+    .header {
+        padding-bottom: 5rem;
+    }
+    .header_container {
         height: 100vh;
     }
+    .text-light {
+        font-size: 14px;
+        padding: 3rem 2rem;
+        margin-bottom: 2rem;
+    }
 }
-
+  
 
     /* ========MEDIA QUEDIES (SMALL DEVIDCES)====== */
 @media screen and (max-width: 600px) {
