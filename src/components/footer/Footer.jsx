@@ -8,7 +8,13 @@ import { FaRegCopyright } from "react-icons/fa"
 const Footer = () => {
   return (
     <footer>
-        <a href='#home' className='footer_logo'></a>
+        <a 
+        href="#home" 
+        onClick={(e) => {
+          e.preventDefault(); // Evita il comportamento predefinito
+          window.scrollTo({ top: 0, behavior: 'smooth' }); // Scroll fluido verso l'alto
+        }} 
+        className='footer_logo'>Home</a>
         <ul className='permalinks'>
             <li> <a href='#home'>Home</a></li>
             <li> <a href='#about'>Chi sono</a></li>

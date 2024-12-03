@@ -7,7 +7,7 @@ import Logo from '../../assets/logo.png'
 
 const Header = () => {
   return (
-    <header>
+    <header id='home'>
       <div className="container header_container">
       <img src={Logo} alt="Logo" className="container_logo"/>
         <h1 className='text-primary'>MHealthy Fit</h1>
