@@ -6,8 +6,23 @@ ITA: Questo sito è stato creato per una personal trainer italiana che vive in S
 
 ESP: Este sitio web fue creado para una entrenadora personal italiana que vive en España. Necesitaba una página intuitiva donde las personas pudieran encontrar información sobre sus servicios y tarifas, y donde pudieran contactarla para agendar una llamada introductoria.
 
-### `link`
+## Link Netlify
 
 https://mhealthyfit.netlify.app/
 
+## Screenshot
 
+![Banner]()
+
+## Tecnologie utilizzate
+
+- HTML
+- CSS
+- Javascript
+- Bootstrap per lo stile
+- React
+
+## Autore
+
+Miriam Truiolo
+Novembre 2024
