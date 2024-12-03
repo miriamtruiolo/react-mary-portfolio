@@ -87,17 +87,7 @@ header {
     margin-right: auto;  
   }
 
-  /*==========SCROLL DOWN========== */
-  .scroll_down {
-    position: absolute;
-    right: -2.3rem;
-    bottom: 5rem;
-    transform: rotate(90deg);
-    font-weight: 500;
-    font-size: 0.9rem;
-    margin-right: 3rem;
-    color: var(--color-dark);
-  }
+
 
   /* ========MEDIA QUEDIES (MEDIUM DEVIDCES)====== */
 @media screen and (max-width: 1024px) {
@@ -117,7 +107,5 @@ header {
 
     /* ========MEDIA QUEDIES (SMALL DEVIDCES)====== */
 @media screen and (max-width: 600px) {
-    .scroll_down {
-        display: none;
-    }
+    
 }

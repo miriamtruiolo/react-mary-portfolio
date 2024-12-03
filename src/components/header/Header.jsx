@@ -23,7 +23,6 @@ const Header = () => {
         <p>Inizia il tuo percorso alla scoperta delle tue incredibili capacità. <br/>Impariamo insieme, secondo le tue esigenze, a prenderci cura del tuo corpo, della tua mente e a perseguire nuovi traguardi, ritrovando il potenziale inespresso che conservi dentro di te.</p>
       </div>
       <div className='linea'></div>
-        <a href='#contact' className='scroll_down'> Scroll Down</a>
       </div>
       
     </header>

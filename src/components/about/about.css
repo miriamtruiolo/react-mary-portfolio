@@ -6,7 +6,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: var(--color-primary);
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 35px;
 }
 .about_container {
     display: grid;
@@ -65,7 +65,7 @@
 .linea {
     border-bottom: 1px solid #B2AC88;
     width: 50%;
-    margin-top: 2rem;  
+    margin-top: 3rem;  
     margin-bottom: 7rem; 
     margin-left: auto; 
     margin-right: auto;  
@@ -73,30 +73,36 @@
  /* ========MEDIA QUERIES (MEDIUM DEVICES)====== */
 @media screen and (max-width: 1024px) { 
     .about_index {
-        margin-top: 10rem; 
+        margin-top: 50%; 
     }
 
     .about_container {
-        grid-template-columns: 1fr; /* Cambia il layout a una colonna */
-        gap: 2rem; /* Aggiungi uno spazio maggiore tra gli elementi */
+        grid-template-columns: 1fr; 
+        gap: 2rem; 
     }
 
     .about_me {
-        width: 60%; /* Ridimensiona l'immagine */
-        margin: 2rem auto; /* Centra con margini */
+        width: 60%; 
+        margin: 2rem auto; 
     }
 
     .text_container h2 {
         font-size: 1.5rem; 
+        margin-left: 2rem;
     }
 
     .text_container h3 {
         font-size: 1.2rem; 
+        margin-left: 2rem;
     }
 
     .about_content p {
         margin: 1rem 0; 
         font-size: 1rem; 
+        margin-left: 2rem;
+    }
+    .btn-primary {
+        margin-left: 2rem;
     }
 }
 
@@ -107,13 +113,13 @@
     }
 
     .about_container {
-        grid-template-columns: 1fr; /* Disposizione verticale */
-        gap: 1rem; /* Spazio ridotto tra gli elementi */
+        grid-template-columns: 1fr; 
+        gap: 1rem; 
     }
 
     .about_me {
-        width: 70%; /* Ridimensiona ulteriormente l'immagine */
-        margin: 2rem auto; /* Centra l'immagine */
+        width: 70%; 
+        margin: 2rem auto; 
     }
 
     .text_container h2 {
