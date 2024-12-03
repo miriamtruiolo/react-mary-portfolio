@@ -8,9 +8,9 @@ import { FaRegCopyright } from "react-icons/fa"
 const Footer = () => {
   return (
     <footer>
-        <a href='#' className='footer_logo'></a>
+        <a href='#home' className='footer_logo'></a>
         <ul className='permalinks'>
-            <li> <a href='#'>Home</a></li>
+            <li> <a href='#home'>Home</a></li>
             <li> <a href='#about'>Chi sono</a></li>
             <li> <a href='#services'>Servizi</a></li>
             <li> <a href='#rates'>Tariffe</a></li>
@@ -18,9 +18,9 @@ const Footer = () => {
             <li> <a href='#contact'>Contatti</a></li>
         </ul>
         <div className="footer_social">
-            <a href=''><FaInstagram/></a>
-            <a href=''><FaLinkedinIn/></a>
-            <a href=''><FaFacebookF/></a>
+            <a href='https://www.instagram.com/'><FaInstagram/></a>
+            <a href='https://www.linkedin.com/'><FaLinkedinIn/></a>
+            <a href='https://www.facebook.com/?_rdr'><FaFacebookF/></a>
         </div>
 
         <div className='footer_copyright'>

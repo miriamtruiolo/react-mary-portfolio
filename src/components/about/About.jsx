@@ -1,9 +1,6 @@
 import React from 'react'
 import './about.css'
 import ME from '../../assets/me-about.jpg'
-import { FaAward } from "react-icons/fa";
-import { FiUsers } from "react-icons/fi";
-import { VscFolderLibrary } from "react-icons/vsc";
 
 const About = () => {
   return (
@@ -23,7 +20,7 @@ const About = () => {
              <br/><br/>Da qualche anno però, armata di tanto coraggio, ho deciso di lasciarmi alle spalle tutto ciò che con impegno avevo costruito, per dedicarmi allo studio delle varie discipline praticate nella sala corsi delle palestre, per poi trasferirmi in Spagna e arricchire il mio percorso formativo come personal trainer. 
              <br/><br/>Ad oggi provo estrema gratitudine sapendo di aver scelto una professione che difficilmente saprà saziare la mia fame di conoscenza.
          </p>
-         
+
           <h2>LA MIA FILOSOFIA</h2>
           <h3>Nuove abitudini per uno stile di vita sano e sostenibile.</h3>
           <p>
