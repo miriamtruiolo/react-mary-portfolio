@@ -1,3 +1,13 @@
+.about_index {
+    margin-top: 12rem;
+}
+
+.about_index h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--color-primary);
+    font-weight: 600;
+    font-size: 2rem;
+}
 .about_container {
     display: grid;
     grid-template-columns: 35% 50%;
@@ -29,75 +39,101 @@
     transform: rotate(0);
 }
 
-.about_cards {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1.5rem;
+.text_container {
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
 }
-
-.about_card {
-    background: var(--color-bg);
-    border: 1px solid transparent;
-    border-radius: 1rem;
-    padding: 2rem;
-    text-align: center;
-    transition: var(--transition);
-}
-
-.about_card:hover {
-    background: transparent;
-    border-color: var(--color-primary);
-    cursor: default;
-}
-
-.about_icon {
+.text_container h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: var(--color-primary);
-    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    font-size: 22px;
+}
+
+.text_container h3 {
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--color-primary);
+    font-weight: 400;
+    font-size: 20px;
     margin-bottom: 1rem;
 }
-
-.about_card h5 {
-    font-size: 0.95rem;
+.btn-primary {
+    margin-top: 2rem;
 }
 
-.about_card small {
-    font-size: 0.7rem;
-    columns: var(--color-light);
-}
-
+.linea {
+    border-bottom: 1px solid #B2AC88;
+    width: 50%;
+    margin-top: 2rem;  
+    margin-bottom: 7rem; 
+    margin-left: auto; 
+    margin-right: auto;  
+  }
  /* ========MEDIA QUERIES (MEDIUM DEVICES)====== */
 @media screen and (max-width: 1024px) { 
-    .about_container {
-        grid-template-columns: 1fr; 
-        gap: 0;
+    .about_index {
+        margin-top: 10rem; 
     }
+
+    .about_container {
+        grid-template-columns: 1fr; /* Cambia il layout a una colonna */
+        gap: 2rem; /* Aggiungi uno spazio maggiore tra gli elementi */
+    }
+
     .about_me {
-        width: 50%;
-        margin: 2rem auto 4rem;
+        width: 60%; /* Ridimensiona l'immagine */
+        margin: 2rem auto; /* Centra con margini */
+    }
+
+    .text_container h2 {
+        font-size: 1.5rem; 
+    }
+
+    .text_container h3 {
+        font-size: 1.2rem; 
     }
 
     .about_content p {
-        margin: 1rem 0 1.5rem;
+        margin: 1rem 0; 
+        font-size: 1rem; 
     }
 }
 
 /* ========MEDIA QUERIES (SMALL DEVICES)====== */
 @media screen and (max-width: 600px) {
+    .about_index {
+        margin-top: 50%;
+    }
+
+    .about_container {
+        grid-template-columns: 1fr; /* Disposizione verticale */
+        gap: 1rem; /* Spazio ridotto tra gli elementi */
+    }
+
     .about_me {
-        width: 65%;
-        margin: 0 auto 3rem;
+        width: 70%; /* Ridimensiona ulteriormente l'immagine */
+        margin: 2rem auto; /* Centra l'immagine */
     }
 
-    .about_cards {
-        grid-template-columns: 1fr; 
-        gap: 1rem;
+    .text_container h2 {
+        font-size: 1.3rem; 
+        margin-top: 1rem; 
+        margin-left: 2rem;
     }
 
-    .about_content { 
-        text-align: center;
+    .text_container h3 {
+        font-size: 1rem; 
+        margin-left: 2rem;
     }
 
     .about_content p {
-        margin: 1.5rem 0;
-    }   
+        text-align: justify; 
+        font-size: 0.9rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .btn-primary {
+        margin-left: 2rem;
+    }
 }

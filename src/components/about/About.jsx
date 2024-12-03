@@ -7,9 +7,8 @@ import { VscFolderLibrary } from "react-icons/vsc";
 
 const About = () => {
   return (
-    <section id='about'>
-      <h5>Get to Know</h5>
-      <h2>About Me</h2>
+    <section id='about' className='about_index'>
+      <h2>CHI SONO</h2>
 
       <div className='container about_container'>
         <div className='about_me'>
@@ -19,31 +18,20 @@ const About = () => {
         </div>
 
         <div className='about_content'>
-          <div className='about_cards'>
-            <article className='about_card'>
-              <FaAward className='about_icon'/>
-              <h5>Experience</h5>
-              <small>3+ Years Working</small>
-            </article>
-            <article className='about_card'>
-              <FiUsers className='about_icon'/>
-              <h5>Clients</h5>
-              <small>300+ Clients</small>
-            </article>
-            <article className='about_card'>
-              <VscFolderLibrary className='about_icon'/>
-              <h5>Project</h5>
-              <small>20+ Complete</small>
-            </article>
-          </div>
-
+          <div className='text_container'>
+         <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet voluptas dignissimos odit modi hic dolorem quidem maiores ipsa sint! Magni esse eum consectetur ad iure, corporis repellat ducimus eveniet eligendi.
+          </p>
+          <h2>LA MIA FILOSOFIA</h2>
+          <h3>Nuove abitudini per uno stile di vita sano e sostenibile.</h3>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet voluptas dignissimos odit modi hic dolorem quidem maiores ipsa sint! Magni esse eum consectetur ad iure, corporis repellat ducimus eveniet eligendi.
           </p>
-
-          <a href='#contact' className='btn btn-primary'>Let's Talk</a>
+          </div>
+          <a href='#contact' className='btn btn-primary'>Contattami</a>
         </div>
       </div>
+      <div className='linea'></div>
     </section>
   )
 }
