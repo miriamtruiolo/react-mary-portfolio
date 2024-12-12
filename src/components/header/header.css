@@ -58,7 +58,7 @@ header {
     background: #B2AC88;
  }
 
- /*==========ME========== */
+ /*==========ME========== 
  .me {
     background: linear-gradient(var(--color-primary), transparent);
     width: 22rem;
@@ -67,7 +67,7 @@ header {
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
     padding:  5rem 1.5rem 1.5rem 1.5rem;
- }
+ } */
 
  /*==========TEXT-LIGHT========== */
  .text-light {
