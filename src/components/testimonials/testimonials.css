@@ -1,6 +1,5 @@
 .container.testimonial_container {
-    width: 40%;  
-    padding-bottom: 4rem; 
+    width: 30%;  
 }
 .testimonials_index h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -41,6 +40,7 @@
 /* ========MEDIA QUERIES (MEDIUM DEVICES)====== */
 @media screen and (max-width: 1024px) { 
     .container.testimonial_container{
+        width: var(--container-width-md);
         width: 60%;
     }
  }
