@@ -1,17 +1,16 @@
-.about_index {
-   margin-top: 12rem;
-}
-
-.about_index h2 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: var(--color-primary);
-    font-weight: 600;
-    font-size: 35px;
+.about {
+    width: auto;
 }
 .about_container {
     display: grid;
     grid-template-columns: 35% 50%;
     gap: 15%;
+}
+.about_title h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--color-primary);
+    font-weight: 600;
+    font-size: 35px;
 }
 
 .about_me {
@@ -59,32 +58,42 @@
     font-size: 20px;
     margin-bottom: 1rem;
 }
-.btn-primary {
+.btn-primary-about{
     margin-top: 2rem;
+    background: var(--color-primary-variant);
+    color: var(--color-dark);
+}
+.btn-primary-about:hover {
+    background: var(--color-secondary);
+    color: var(--color-ligth);
+    border-color: transparent;
 }
 
-.linea {
+/*.linea {
     border-bottom: 1px solid #B2AC88;
     width: 50%;
     margin-top: 3rem;  
     margin-bottom: 7rem; 
     margin-left: auto; 
     margin-right: auto;  
-  }
+  }*/
  /* ========MEDIA QUERIES (MEDIUM DEVICES)====== */
 @media screen and (max-width: 1024px) { 
-    .about_index {
-        margin-top: 50%; 
-    }
-
     .about_container {
         grid-template-columns: 1fr; 
         gap: 2rem; 
     }
 
+    .about_title{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: var(--color-primary);
+        font-weight: 600;
+        font-size: 35px;
+    }
+
     .about_me {
         width: 60%; 
-        margin: 2rem auto; 
+        padding: auto;
     }
 
     .text_container h2 {
@@ -102,35 +111,52 @@
         font-size: 1rem; 
         margin-left: 2rem;
     }
-    .btn-primary {
+    .btn-primary-about {
         margin-left: 2rem;
+        background: var(--color-primary-variant);
+        color: var(--color-dark);
     }
+    
 }
 
 /* ========MEDIA QUERIES (SMALL DEVICES)====== */
-@media screen and (max-width: 600px) {
-    .about_index {
-        margin-top: 50%;
-    }
-
+@media screen and (max-width: 600px){
     .about_container {
         grid-template-columns: 1fr; 
         gap: 1rem; 
     }
 
+    /*.linea {
+        border-bottom: 1px solid #B2AC88;
+        width: 50%; 
+        margin-left: auto; 
+        margin-right: auto;  
+      }*/
+
+      .about_title{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: var(--color-primary);
+        font-weight: 600;
+        font-size: 35px;
+        margin-top: 12rem;
+    }
+
     .about_me {
         width: 70%; 
-        margin: 2rem auto; 
     }
     .about_me-image {
         border-radius: 3rem;
         overflow: hidden;
         transform: rotate(10deg);
         transition: var(--transition);
+        display: flex;
+        justify-content: center;
     }
     
     .about_me-image:hover {
         transform: rotate(0);
+        display: flex;
+        justify-content: center;
     }
 
     .text_container h2 {
@@ -150,7 +176,9 @@
         margin-left: 2rem;
         margin-right: 2rem;
     }
-    .btn-primary {
+    .btn-primary-about {
         margin-left: 2rem;
+        background: var(--color-primary-variant);
+        color: var(--color-dark);
     }
 }

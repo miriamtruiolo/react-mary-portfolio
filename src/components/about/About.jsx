@@ -4,9 +4,8 @@ import ME from '../../assets/secondary.JPG'
 
 const About = () => {
   return (
-    <section id='about' className='about_index'>
-      <h2>CHI SONO</h2>
-
+    <section id='about'>
+      <h2 className='about_title'>CHI SONO</h2>
       <div className='container about_container'>
         <div className='about_me'>
           <div className='about_me-image'>
@@ -27,10 +26,10 @@ const About = () => {
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet voluptas dignissimos odit modi hic dolorem quidem maiores ipsa sint! Magni esse eum consectetur ad iure, corporis repellat ducimus eveniet eligendi.
           </p>
           </div>
-          <a href='#contact' className='btn btn-primary'>Contattami</a>
+          <a href='#contact' className='btn btn-primary-about'>Contattami</a>
         </div>
       </div>
-      <div className='linea'></div>
+    {/*<div className='linea'></div> */}  
     </section>
   )
 }
