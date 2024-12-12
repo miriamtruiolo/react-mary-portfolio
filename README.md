@@ -12,7 +12,7 @@ https://mhealthyfit.netlify.app/
 
 ## Screenshot
 
-![Banner]()
+![Banner](https://github.com/miriamtruiolo/react-mary-portfolio/blob/main/src/assets/preview.png)
 
 ## Tecnologie utilizzate
 
