@@ -72,6 +72,8 @@ box-shadow: 0 2rem 1 rem rgba(0, 0, 0, 0.1);
     .rates_container {
         grid-template-columns: 1fr;
         gap: 1.5rem;
+         grid-template-columns: 1fr;
+        width: var(--container-width-sm);
     }
        
  }

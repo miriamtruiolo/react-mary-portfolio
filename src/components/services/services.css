@@ -99,5 +99,7 @@
       .services_container > div {
         width: 100%;
         padding: 2rem;
+        grid-template-columns: 1fr;
+        width: var(--container-width-sm);
       }
 }

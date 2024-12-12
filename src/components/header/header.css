@@ -107,5 +107,11 @@ header {
 
     /* ========MEDIA QUEDIES (SMALL DEVIDCES)====== */
 @media screen and (max-width: 600px) {
-    
+    .text-light {
+        text-align: center;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+        font-size: medium;
+        font-family: 'Times New Roman', Times, serif;
+     }
 }

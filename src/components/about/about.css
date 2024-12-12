@@ -1,5 +1,5 @@
 .about_index {
-    margin-top: 12rem;
+   margin-top: 12rem;
 }
 
 .about_index h2 {
@@ -121,6 +121,16 @@
     .about_me {
         width: 70%; 
         margin: 2rem auto; 
+    }
+    .about_me-image {
+        border-radius: 3rem;
+        overflow: hidden;
+        transform: rotate(10deg);
+        transition: var(--transition);
+    }
+    
+    .about_me-image:hover {
+        transform: rotate(0);
     }
 
     .text_container h2 {
